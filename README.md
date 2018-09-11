@@ -2,8 +2,11 @@
 
 Stripped of all color, Monotony set out to show the world that style could be just as expressive with only shades of gray. It's the syntax theme that wants to decorate your code with subtle CSS effects like 2D transforms and soft blurs.
 
-![A screenshot!](screenshot.png)
-> Font used in screenshot is [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript)
+![LESS screenshot!](screenshots/monotony-less.png)
+![JavaScript screenshot!](screenshots/monotony-js.png)
+![JSON screenshot!](screenshots/monotony-json.png)
+![HTML screenshot!](screenshots/monotony-html.png)
+> Font used in screenshots is [Fira Code iScript](https://github.com/kencrocken/FiraCodeiScript)
 > UI theme is Atom One Dark
 
 NOTES
