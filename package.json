@@ -1,7 +1,7 @@
 {
   "name": "monotony-syntax",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Monochrome syntax with subtle styling",
   "keywords": [
     "syntax",
