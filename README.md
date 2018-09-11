@@ -1,17 +1,12 @@
-# Atom Template Syntax Theme
+# Monotony Syntax Theme for Atom
 
-This is a template syntax theme. Its goal is to be an example or template for
-you to build from. See the less files in the `stylesheets` directory.
-
-Feel free to fork this and create your own atom themes.
+Stripped of all color, Monotony set out to show the world that style could be just as expressive in grayscale. It's the syntax theme that wants to decorate your code with subtle CSS effects like 2D transforms and soft blurs.
 
 ![A screenshot!](https://f.cloud.github.com/assets/69169/2302417/fec4d2e4-a17b-11e3-927e-b4e375d3e26c.png)
 
-### Notes and best practices
-
-* Name your syntax theme with `-syntax` at the end
-* Define proper colors in your `syntax-variables.less` file. Other packages
-  can use these variables. All the variables defined in this package's
-  `syntax-variables.less` file must be defined &mdash; you cannot pick and choose.
-* Always have a high-quality screenshot in the README
-* The `colors.less` file is not necessary, but it's good practice.
+KNOWN BUGS
+* use of text-shadows make it impossible to port to VS Code
+* quote symbols surrounding strings are blurry and hard to read
+* comments look somewhat ghastly
+* 'this' keyword is italicized which is just weird
+* control structures like "if" and "return" look almost comical

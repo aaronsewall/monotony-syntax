@@ -1,12 +1,17 @@
 {
-  "name": "template-syntax",
+  "name": "monotony-syntax",
+  "author": "ugotsta",
   "theme": "syntax",
-  "version": "0.3.0",
-  "private": false,
-  "description": "A template syntax theme to build from",
-  "repository": "https://github.com/atom/template-syntax",
+  "version": "0.1.0",
+  "description": "Monochrome syntax with subtle styling",
+  "keywords": [
+    "syntax",
+    "theme",
+    "monochrome"
+  ],
+  "repository": "https://github.com/Ugotsta/monotony-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.0.0 <2.0.0"
   }
 }
