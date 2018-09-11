@@ -1,6 +1,5 @@
 {
   "name": "monotony-syntax",
-  "author": "ugotsta",
   "theme": "syntax",
   "version": "0.1.0",
   "description": "Monochrome syntax with subtle styling",
