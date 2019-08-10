@@ -1,14 +1,15 @@
 {
-  "name": "monotony-syntax",
+  "name": "monotony-syntax-light",
   "theme": "syntax",
   "version": "2.0.0",
-  "description": "Monochrome syntax with subtle styling",
+  "description": "Monochrome light syntax with subtle styling",
   "keywords": [
     "syntax",
     "theme",
-    "monochrome"
+    "monochrome",
+    "light"
   ],
-  "repository": "https://github.com/Ugotsta/monotony-syntax",
+  "repository": "https://github.com/aaronsewall/monotony-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

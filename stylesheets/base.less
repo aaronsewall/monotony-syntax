@@ -5,9 +5,9 @@
 //text-shadow for variables
 .syntax--variable.syntax--other.syntax--less {
     text-shadow:
-      0px 1px 1px black,
-      0px 2px 1px black,
-      0px 3px 2px rgba(255,255,255,0.5);
+      0px 1px 1px white,
+      0px 2px 1px white,
+      0px 3px 2px rgba(0,0,0,0.5);
 }
 
 //override property values to ensure they're darker than property names
@@ -53,17 +53,17 @@ atom-text-editor.is-focused .cursor {
 atom-text-editor.is-focused .selection .region {
   background-color: @syntax-selection-color;
   background-image:
-    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC);
+    url(data:image/png;base191,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC);
   background-size: 5px;
 }
 
 atom-text-editor.is-focused {
     .line-number.cursor-line-no-selection,
     .line.cursor-line {
-        background-color: rgba(45, 45, 45, 0);
+        background-color: rgba(210, 210, 210, 0);
         box-shadow:
-            0 0 1em rgba(255,255,255,0.05),
-            inset 0 0 2em rgba(255,255,255,0.15);
+            0 0 1em rgba(0,0,0,0.05),
+            inset 0 0 2em rgba(0,0,0,0.15);
     }
 }
 
@@ -86,9 +86,9 @@ atom-text-editor.is-focused {
 
 .syntax--storage.syntax--type.syntax--class {
     text-shadow:
-      0px 1px 1px black,
-      0px 2px 1px black,
-      0px 3px 2px rgba(255,255,255,0.5);
+      0px 1px 1px white,
+      0px 2px 1px white,
+      0px 3px 2px rgba(0,0,0,0.5);
 }
 
 .syntax--attribute-name.syntax--class.syntax--css {
@@ -99,9 +99,9 @@ atom-text-editor.is-focused {
     font-style: italic;
     color: #777;
     text-shadow:
-      0px 1px 1px black,
-      0px 2px 1px black,
-      0px 3px 2px rgba(255,255,255,0.5);
+      0px 1px 1px white,
+      0px 2px 1px white,
+      0px 3px 2px rgba(0,0,0,0.5);
 }
 
 .syntax--variable.syntax--other.syntax--property {
@@ -109,30 +109,30 @@ atom-text-editor.is-focused {
 }
 
 .syntax--keyword, .syntax--storage {
-  color: rgba(128, 128, 128, 1);
+  color: rgba(127, 127, 127, 1);
 }
 
 .syntax--constant.syntax--numeric {
-  color: rgba(128, 128, 128, 1);
+  color: rgba(127, 127, 127, 1);
 }
 
 .syntax--constant {
-  color: rgba(128, 128, 128, 1);
+  color: rgba(127, 127, 127, 1);
 }
 
 .syntax--entity.syntax--name.syntax--function {
     text-shadow:
-      0px 1px 1px black,
-      0px 2px 1px black,
-      0px 3px 2px rgba(255,255,255,0.5);
+      0px 1px 1px white,
+      0px 2px 1px white,
+      0px 3px 2px rgba(0,0,0,0.5);
 }
 
 .syntax--string {
-    color: rgba(128, 128, 128, 1);
+    color: rgba(127, 127, 127, 1);
 }
 
 .syntax--key.syntax--string {
-   color: white;
+   color: black;
 }
 
 .syntax--structure.syntax--dictionary.syntax--key .syntax--string {
@@ -144,44 +144,44 @@ atom-text-editor.is-focused {
     font-weight: 900;
     color: #555;
     text-shadow:
-        0 0 2px black,
-        0 0 3px black,
-        0 0 4px white,
-        0 0 5px black;
+        0 0 2px white,
+        0 0 3px white,
+        0 0 4px black,
+        0 0 5px white;
 }
 
 .syntax--invalid {
-  color: rgba(128, 128, 128, 1);
-  background-color: rgba(128, 128, 128, 1);
+  color: rgba(127, 127, 127, 1);
+  background-color: rgba(127, 127, 127, 1);
 }
 
 .syntax--meta.syntax--diff.syntax--header,
 .syntax--meta.syntax--separator.syntax--diff,
 .syntax--meta.syntax--diff.syntax--index,
 .syntax--meta.syntax--diff.syntax--range {
-  background-color: rgba(128, 128, 128, 1);
+  background-color: rgba(127, 127, 127, 1);
 }
 
 .syntax--markup.syntax--deleted {
-  color: rgba(128, 128, 128, 1);
+  color: rgba(127, 127, 127, 1);
 }
 
 .syntax--markup.syntax--inserted {
-  color: rgba(128, 128, 128, 1);
+  color: rgba(127, 127, 127, 1);
 }
 
 .syntax--markup.syntax--changed {
-  color: rgba(128, 128, 128, 1);
+  color: rgba(127, 127, 127, 1);
 }
 
 // rotate control structures
 .syntax--keyword.syntax--control {
     display: inline-block;
     transform: rotate(-4deg);
-    background: rgba(255,255,255,0.05);
-    box-shadow: 0 0 10px rgba(255,255,255,0.05);
+    background: rgba(0,0,0,0.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
     border-radius: 50%;
-    text-shadow: 0 1px 1px black;
+    text-shadow: 0 1px 1px white;
 }
 
 .syntax--gfm {
@@ -190,9 +190,12 @@ atom-text-editor.is-focused {
 
 .syntax--markup.syntax--heading {
         font-weight: 900;
-        color: white;
+        color: black;
         text-shadow:
-          0px 1px 1px black,
-          0px 2px 1px black,
-          0px 3px 2px rgba(255,255,255,0.5);
+          0px 1px 1px white,
+          0px 2px 1px white,
+          0px 3px 2px rgba(0,0,0,0.5);
 }
+
+atom-text-editor .cursor
+  { opacity: 1 !important }
